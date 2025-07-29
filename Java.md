@@ -1,4 +1,4 @@
-## Java
+# Java
 
 ## LTS - (Long term support)
 - it means a version of Java that will receive extended updates and support from Oracle or other vendors for a longer period (typically several years). Ideal for enterprise and production use.
@@ -11,19 +11,19 @@
 ## Method Overloading 
 - same method name but has different parameters
 
-## Stack & Heap
+# Stack & Heap
 
-# Stack:
+## Stack:
 - Last in First out
 - Stores local variables, references
 - Smaller than heap memory
 - Short term memory
 
-# Heap
+## Heap
 - Storing bjects, class instances and Dynamic data
 -Long term memory
 
-###Multi dimentional Array
+## Multi dimentional Array
 Array of Arrays but have same length
 Declaration=int arr[][]=new num[3][4]
 num[3]=No of array
@@ -35,9 +35,9 @@ num[4]=Length of array
 - It is like 2d array but has different number of elements
   
 
-## String
+# String
 
-# Mutable String (StringBuffer)
+## Mutable String (StringBuffer)
 
 - A thread-safe, mutable sequence of characters.
 - 
@@ -47,7 +47,7 @@ num[4]=Length of array
 - 
 - It supports operations like append, insert, delete, and reverse.
 
-# Immutable String-
+## Immutable String-
 
 -String Constant Pool - this is a special memory area in Java used to store unique string literals. It helps in saving memory and improving performance by avoiding duplicate string objects.
 
