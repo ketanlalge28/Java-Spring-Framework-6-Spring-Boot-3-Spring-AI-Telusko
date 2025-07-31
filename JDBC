@@ -1,0 +1,13 @@
+# JDBC   (Java databse connectivity)
+
+## What is JDBC ?
+-JDBC is a Java API (Application Programming Interface) that allows Java applications to interact with relational databases (like MySQL, Oracle, PostgreSQL).
+
+- Steps to connect Java application to database using JDBC
+    - Import Packages
+    - Load driver
+    - Register driver
+    - Create connection
+    - Create statement
+    - Execute statement
+    - close
