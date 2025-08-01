@@ -11,3 +11,19 @@
     - Create statement
     - Execute statement
     - close
+
+## Sample program to connect java application to database using JDBC
+
+
+`import java.sql.*;
+
+public class demojdbc {
+    public static void main(String[]args) throws Exception {
+        String url="jdbc:postgresql://localhost:5432/Demo";
+        String uname="postgres";
+        String pass="1234";
+        Connection con =DriverManager.getConnection(url,uname,pass);
+
+        System.out.println("Connected to database successfully");
+    }
+}`
