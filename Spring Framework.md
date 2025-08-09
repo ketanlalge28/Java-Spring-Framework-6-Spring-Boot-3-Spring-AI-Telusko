@@ -22,11 +22,16 @@
 - A new bean instance is created every time it is requested.
 
 
-### How to set value of reference variable using xml file
+### How to set value of primitive variable using xml file
 - Add the property tag in the bean tag where class is linked
-- In the property tag name the reference variable and add the value
-- Syntax ` <property name="ref_variable" value="0"> </property> `
+- In the property tag name the primitive variable and add the value
+- Syntax ` <property name="variablename" value="0"> </property> `
 - Example :
     ``  <bean id="alien1" class="org.example.Alien" scope="prototype">
         <property name="age" value="21"></property>
     </bean> ``
+
+  ### Create reference attribute
+ - syntax ` <property name="variablename" ref="objname"> </property> `
+ - make sure that object is created in the the bean tag in xml file
+   
