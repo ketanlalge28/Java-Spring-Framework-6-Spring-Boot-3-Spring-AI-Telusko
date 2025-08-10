@@ -35,3 +35,8 @@
  - syntax ` <property name="variablename" ref="objname"> </property> `
  - make sure that object is created in the the bean tag in xml file
    
+### To add constructor
+- Syntax ` <Constructor-arg index/name/type=" " value/ref=" "/>
+
+## primary beam
+- Primary bean is used when you have multiple beans of the same type and Spring needs to decide which one to inject by default.
