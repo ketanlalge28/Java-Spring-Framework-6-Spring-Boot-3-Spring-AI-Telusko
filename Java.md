@@ -21,7 +21,7 @@
 
 ## Heap
 - Storing bjects, class instances and Dynamic data
--Long term memory
+- Long term memory
 
 ## Multi dimentional Array
 Array of Arrays but have same length
@@ -31,7 +31,6 @@ num[4]=Length of array
 
 ## Jagged Array
 - Array of arrays can have different length for each row
-- 
 - It is like 2d array but has different number of elements
   
 
@@ -40,40 +39,34 @@ num[4]=Length of array
 ## Mutable String (StringBuffer)
 
 - A thread-safe, mutable sequence of characters.
-- 
-- A string buffer is like a String, but can be modified.
--  
+- A string buffer is like a String, but can be modified. 
 - At any point in time it contains some particular sequence of characters, but the length and content of the sequence can be changed through certain method calls.
-- 
 - It supports operations like append, insert, delete, and reverse.
 
 ## Immutable String-
 
--String Constant Pool - this is a special memory area in Java used to store unique string literals. It helps in saving memory and improving performance by avoiding duplicate string objects.
+- String Constant Pool - this is a special memory area in Java used to store unique string literals. It helps in saving memory and improving performance by avoiding duplicate string objects.
 
--Both Strings s1 and s2 will point to the same object in the String Constant Pool, instead of creating two separate objects.
+- Both Strings s1 and s2 will point to the same object in the String Constant Pool, instead of creating two separate objects.
 
--you can check this with comparing this two Strings with (==) operator and .equals() method.
+- You can check this with comparing this two Strings with (==) operator and .equals() method.
 
 
 ## Static variable
 - A static variable in Java is shared among all instances of a class and is stored in memory only once.
-- 
 - Can be accessed using the class name or an object reference.
 
 ## Static Method
 - A static method in Java belongs to the class rather than any object and can be called without creating an object.
-- 
 - It is declared using the static keyword and can only access static data directly (not instance variables).
 
 
 ## Static Block
--A static block in Java is used to initialize static variables and runs once when the class is loaded, before the main() method.
+- A static block in Java is used to initialize static variables and runs once when the class is loaded, before the main() method.
 
 
 ## This Keyword
 - To refer current class instance variable
-- 
 - Useful when local variable have the same names as instance variables
 
 ## Super keyword
@@ -90,7 +83,6 @@ num[4]=Length of array
 
 ## Default Constructor
 - A constructor that takes no parameters.
-- 
 - It is automatically called defined in the class.
 
 ## Parameterized Constructor
