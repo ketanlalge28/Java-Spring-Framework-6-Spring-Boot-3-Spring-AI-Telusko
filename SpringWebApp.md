@@ -35,3 +35,10 @@
 ### 3. Controller (Servlet)
 - Acts as a bridge between Model and View.
 - It receives user input from the View, processes it (using Model), and then updates the View.
+
+## How to add controller in a project?
+- Create a class for controller.
+- Add the annotation `@Controller` above the controller class.
+- Create a method to call view (JSP class).
+- Add the annotation `@RequestMapping"/"`  for mapping.
+- Return the view (JSP file).
