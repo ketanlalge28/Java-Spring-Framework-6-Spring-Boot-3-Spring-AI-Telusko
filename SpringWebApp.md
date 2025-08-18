@@ -42,3 +42,11 @@
 - Create a method to call view (JSP class).
 - Add the annotation `@RequestMapping"/"`  for mapping.
 - Return the view (JSP file).
+
+## Model Object
+- Used to pass data from the controller to the view using
+- `model.addAttribute("key", value).`
+
+## Need for model Attribute
+- Binds form data to an object and adds it to the model
+- Syntax `public String addAlien(@ModelAttribute Alien alien) { ... }`
